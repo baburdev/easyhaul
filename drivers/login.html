@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="smartphone">
+        <div class="infobox">
+            <button class="infoclose">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <h3 class="infotitle">Info about the page</h3>
+            <p class="infotext">This button that you clicked right now will show the users the information about the page that they are into, like if they are on this page it'll give some informations about this page to them to choose their role wisely and also it'll give additional information about the owner of the application and the support team. So briefly it helps users to use the app correctly.</p>
+        </div>
+        <div class="menu">
+            <ul class="menulist">
+                <li class="menuitem menuitem-df">
+                    <div class="img-pfp-div">
+                        <img src="/images/profile.png" alt="profile picture" class="img-pfp1">
+                    </div>
+                    <div class="menuitem-df-div">
+                        <a href="#" class="menulink menulink-name">Your Name</a>
+                        <a href="#" class="menulink menulink-num">+123 12-345-67-90</a>
+                    </div>
+                </li>
+                <li class="menuitem">
+                    <a href="#" class="menulink">Payment Methods</a>
+                </li>
+                <li class="menuitem">
+                    <a href="#" class="menulink">Add Card</a>
+                </li>
+                <li class="menuitem">
+                    <a href="#" class="menulink">History</a>
+                </li>
+                <li class="menuitem">
+                    <a href="#" class="menulink">Settings</a>
+                </li>
+                <li class="menuitem">
+                    <a href="#" class="menulink">Language</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menuoverlay"></div>
+        <header class="header">
+            <button class="menubtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#" class="logo">Easy <span class="bold">Haul</span></a>
+            <button class="infobtn">
+                <i class="fa-solid fa-exclamation"></i>
+            </button>
+        </header>
+        <div class="big-box2">
+            <form class="signup-form">
+                <h2 class="signlink2">driver Log in</h2>
+                <div class="form-group">
+                  <label for="email">Email or Phone Number</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email or phone number">
+                </div>
+                <div class="form-group fg2">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+                <div class="form-group-checkbox">
+                    <input type="checkbox" class="checkboxinput" name="checkbox" id="checkbox_id" value="value">
+                    <label for="checkbox_id" class="labelinput">Remember me</label>
+                </div>
+                <a class="linkaaa" href="verify.html"><div class="btn-sbmt">Submit</div></a>
+                <div class="login-link">
+                    <a href="index2.html" class="login-form1">New here? Sign up</a>
+                </div>
+                <div class="backdiv">
+                    <a href="index2.html" class="linkback"><i class="fa-solid fa-chevron-left iconback"></i> Back</a>
+                </div>
+              </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
